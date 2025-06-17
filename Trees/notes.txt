@@ -1,0 +1,6 @@
+1.Invert Binary Tree intrigue you to go to each Node of tree and just reverse the left and right Node,Inorder traversal dont
+work here.It take O(n) TC and O(h) SC,to go to each node take linear time and the spaces is the stack spaces,where h is the
+height of the tree.This is Recursive DFS,but it can be solved through Stack(DFS-Iterative) and Queue(BFS),only catch is
+the SC is different ,BFS-O(W) where W is the width and DFS-O(h) where h is the height.Just add the Node in stack or queue and then
+run the loop till it is empty reverse the left and right of the popped or polled,and add left and right in stack or queue
+after checking whether they are null or not.

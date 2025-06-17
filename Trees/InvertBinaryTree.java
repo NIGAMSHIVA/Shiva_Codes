@@ -16,9 +16,6 @@ public class InvertBinaryTree {
 
     public static TreeNode invertTree(TreeNode root) {
 
-        // Changes
-
-        // hereeee
 
          function(root);
          return root;
