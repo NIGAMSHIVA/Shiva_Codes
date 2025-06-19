@@ -4,3 +4,9 @@ height of the tree.This is Recursive DFS,but it can be solved through Stack(DFS-
 the SC is different ,BFS-O(W) where W is the width and DFS-O(h) where h is the height.Just add the Node in stack or queue and then
 run the loop till it is empty reverse the left and right of the popped or polled,and add left and right in stack or queue
 after checking whether they are null or not.
+
+2.Maximum Depth Intrigues you to to do the level order traversal use the queue data structure store in the List of List 
+and just return the size this is the BFS technique which will take O(n) TC and O(n) SC.Better Than this ,there is a DFS solution
+At root you want to know 1+max(left substree,right subtree) but for that you have to go to each node and do the traversal
+this will take O(n) TC and O(h) SC.In DFS(Stack) we used Pair ,we were pushing the node with its depth .So after the traversal
+we have travelled all the nodes & we have the depth of each node at every point and we just maximize it ,O(n) TC and O(h) SC.
